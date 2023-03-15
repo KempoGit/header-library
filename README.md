@@ -48,9 +48,9 @@ Then you can use it with the required inputs
 The input `[logo]` is `string` and must indicate the url where the logo is located.
 
 The input `[links]` It is an object array and must contain the items that will be seen in the Header.
-    The `title` is the text of each item
-    The property `url` indicates where the redirection will do each item
-    The `highlight` property will make item look like a button
+The `title` is the text of each item.
+The property `url` indicates where the redirection will do each item.
+The `highlight` property will make item look like a button.
 
 The input `[color_1]` is `string` and indicates the primary color of the text, accepts any color that can be used in CSS.
 
