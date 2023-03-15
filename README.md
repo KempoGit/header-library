@@ -14,11 +14,10 @@ imports: [
   ],
 ```
 
-Then you can use it with the required inputs
+Then create the links you want to see in the `.ts` file
 
 ```
-<script>
-    const links = [
+links = [
         {
         title: 'Home',
         url: '/'
@@ -33,10 +32,13 @@ Then you can use it with the required inputs
         highlight: true
         }
     ]
-</script>
+```
 
+Finally you can use it with the required inputs
+
+```
 <lib-header-library
-    [logo]="../assets/logo.svg"
+    [logo]="'../assets/logo.svg'"
     [links]="links"
     [color_1]="'white'"
     [color_2]="'black'"
