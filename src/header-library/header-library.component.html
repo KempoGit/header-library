@@ -1,0 +1,14 @@
+<header [ngStyle]="this.styleObject()">
+    <div class="logo">
+        <img [src]="this.logo" alt="image" height="40" width="40">
+    </div>
+    <div class="links">
+        <ng-container *ngFor="let item of this.links">
+            <a
+                [ngClass]="item.highlight ? 'highlight' : ''"
+                [routerLink]="item.url">
+                {{item.title}}
+            </a>
+        </ng-container>
+    </div>
+</header>
