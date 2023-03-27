@@ -1,6 +1,11 @@
 {
+  "homepage": "https://github.com/KempoGit/header-library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KempoGit/header-library"
+  },
   "name": "kempo-header-library",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "peerDependencies": {
     "@angular/common": "^15.0.0",
     "@angular/core": "^15.0.0"

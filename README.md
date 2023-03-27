@@ -77,7 +77,7 @@ The input `[shadow]` is `boolean` and indicates if the header will show a shadow
 <h1 align="center">
 	<br>
 	<br>
-	<img width="320" src="media/screenshot.png" alt="header-library">
+	<img width="320" src="assets/screenshot.png" alt="header-library">
 	<br>
 	<br>
 	<br>
