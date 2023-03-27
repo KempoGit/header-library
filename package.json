@@ -1,5 +1,5 @@
 {
-  "name": "header-library",
+  "name": "kempo-header-library",
   "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^15.0.0",
