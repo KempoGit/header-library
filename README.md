@@ -2,6 +2,10 @@
 
 https://www.npmjs.com/package/kempo-header-library
 
+# Github Link
+
+https://github.com/KempoGit/header-library
+
 # Header library
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
@@ -11,6 +15,8 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 You must first add it in the `module` you want to use it
 
 ```
+import { HeaderLibraryModule } from 'kempo-header-library';
+
 imports: [
     BrowserModule,
     AppRoutingModule,
@@ -23,19 +29,19 @@ Then create the links you want to see in the `.ts` file
 ```
 links = [
         {
-        title: 'Home',
-        url: '/'
+            title: 'Home',
+            url: '/'
         },
         {
-        title: 'Shop',
-        url: '/'
+            title: 'Shop',
+            url: '/'
         },
         {
-        title: 'Login',
-        url: '/',
-        highlight: true
+            title: 'Login',
+            url: '/',
+            highlight: true
         }
-    ]
+    ];
 ```
 
 Finally you can use it with the required inputs
@@ -65,3 +71,14 @@ The input `[color_2]` is `string` and indicates the secondary color of the text,
 The input `[background_color]` is `string` and indicates the color of the header, accepts any color that can be used in CSS. By default this value is 'transparent'.
 
 The input `[shadow]` is `boolean` and indicates if the header will show a shadow below. By default this value is false.
+
+# Result
+
+<h1 align="center">
+	<br>
+	<br>
+	<img width="320" src="media/screenshot.png" alt="header-library">
+	<br>
+	<br>
+	<br>
+</h1>
